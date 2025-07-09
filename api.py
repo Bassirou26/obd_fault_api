@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 from flask_cors import CORS
 from flask import Flask, request, jsonify
+=======
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+>>>>>>> d0981a1 (Ajout du support CORS pour Flutter)
 import joblib
 import numpy as np
 
