@@ -1,8 +1,10 @@
+from flask_cors import CORS
 from flask import Flask, request, jsonify
 import joblib
 import numpy as np
 
 app = Flask(__name__)
+CORS(app)
 
 # Charger les modèles
 model_inj = joblib.load("model_injecteur.pkl")
