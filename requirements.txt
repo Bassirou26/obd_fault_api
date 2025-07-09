@@ -1,5 +1,5 @@
 Flask
-scikit-learn
+flask_cors
 numpy
 joblib
 gunicorn
