@@ -18,7 +18,7 @@ scaler = joblib.load("scaler.pkl")
 
 @app.route("/")
 def home():
-    return "API opérationnelle 🚗"
+    return "✅ Version avec CORS déployée - 9 juillet"
 
 @app.route("/predict", methods=["POST"])
 def predict():
